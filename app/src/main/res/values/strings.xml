@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MercariTest</string>
+
+    <!-- error -->
+    <string name="error_msg">Sorry! Could not load items.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_no_internet">Not connected to internet</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="error_msg_no_data">Nothing to show.</string>
+
+    <!-- common -->
+    <string name="device_type">phone</string>
+
+    <string name="price">$%1$d</string>
+</resources>

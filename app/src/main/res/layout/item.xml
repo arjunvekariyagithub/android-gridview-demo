@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:layout_margin="@dimen/item_margin"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_height="@dimen/image_height"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_height="@dimen/image_height"
+            android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/icon_sold"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/sold"
+            android:scaleType="center"/>
+
+        <TextView
+            style="@style/black_14_white"
+            android:background="@drawable/item_price_background"
+            android:id="@+id/text_price"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/text_price_margin_left"
+            android:layout_marginBottom="@dimen/text_price_margin_bottom"
+            android:padding="@dimen/item_margin"/>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/regular_14_black_70op"
+        android:id="@+id/text_name"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_name_margin_top"
+        android:layout_marginLeft="@dimen/text_price_margin_left"
+        android:layout_width="wrap_content"/>
+
+</LinearLayout>
