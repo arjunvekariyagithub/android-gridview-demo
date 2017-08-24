@@ -1,5 +1,4 @@
-# mercari-android-test
-Sample test app for Mercari.
+# android-recyclerview-demo
 
 ## Libraries used
   - [Retrofit](https://square.github.io/retrofit/) as HTTP client
